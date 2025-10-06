@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Framily Tree</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- vis-network CDN -->
+  <script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Framily Tree</h1>
+    <p class="subtitle">Interactive big/little network — click nodes for details</p>
+  </header>
+
+  <main>
+    <div id="network"></div>
+
+    <aside id="info">
+      <h2>Member details</h2>
+      <div id="details">Click a node to view member details.</div>
+      <h3>Legend</h3>
+      <ul>
+        <li><b>Node</b> = member</li>
+        <li><b>Arrow</b> = big → little</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <small>Made with vis-network • Add members in <code>data/relations.json</code></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
