@@ -1,0 +1,13 @@
+{
+  "members": [
+    { "id": 1, "name": "Sam 'Alpha' Carter", "class": "Fall 2022", "nick": "Alpha", "bio": "House President" },
+    { "id": 2, "name": "Jake 'Beta' Morales", "class": "Spring 2023", "nick": "Beta", "bio": "Engineer" },
+    { "id": 3, "name": "Alex 'Gamma' Chen", "class": "Fall 2023", "nick": "Gamma", "bio": "Marketing" },
+    { "id": 4, "name": "Troy 'Delta' Nguyen", "class": "Spring 2024", "nick": "Delta", "bio": "Half-back" }
+  ],
+  "relations": [
+    { "from": 1, "to": 2 },
+    { "from": 2, "to": 3 },
+    { "from": 1, "to": 4 }
+  ]
+}
